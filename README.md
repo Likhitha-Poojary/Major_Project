@@ -121,13 +121,13 @@ Enter the counts from the actual dataset folders and training configuration befo
 | Target object | Banana |
 | Number of classes | 3 |
 | Class names | SAFE, UNSAFE, ARTIFICIAL |
-| Total number of images | To be filled from the dataset |
-| SAFE image count | To be filled from the dataset |
-| UNSAFE image count | To be filled from the dataset |
-| ARTIFICIAL image count | To be filled from the dataset |
-| Training split | To be filled from the actual training setup |
-| Validation split | To be filled from the actual training setup |
-| Test split | To be filled from the actual testing setup |
+| Total number of images | 300 |
+| SAFE image count | 100 |
+| UNSAFE image count | 100 |
+| ARTIFICIAL image count | 100 |
+| Training split | 70% |
+| Validation split | 10% |
+| Test split | 20% |
 
 If the dataset contains images from public sources as well as images collected by the project team, document those sources and any applicable licences in the dataset description.
 
@@ -192,19 +192,7 @@ AI-Powered-Fruit-Sorting-and-Quality-Grading/
 │
 ├── README.md
 ├── final.py
-├── requirements.txt
-├── best_banana.pt
-│
-├── hardware/
-│   ├── circuit_diagram/
-│   └── project_photos/
-│
-├── screenshots/
-│
-├── docs/
-│   └── project_report.pdf
-│
-└── .gitignore
+├── model.py
 ```
 
 The dataset is hosted separately on Google Drive and linked in this README. Avoid committing a large dataset directory to GitHub. If the model weights are too large for ordinary GitHub file storage, provide a separate download link or use Git LFS where appropriate.
