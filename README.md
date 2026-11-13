@@ -191,8 +191,8 @@ The following is a suggested GitHub repository layout. Include only files that e
 AI-Powered-Fruit-Sorting-and-Quality-Grading/
 │
 ├── README.md
-├── final.py
-├── model.py
+├── final.ipynb
+├── model.ipynb
 ```
 
 The dataset is hosted separately on Google Drive and linked in this README. Avoid committing a large dataset directory to GitHub. If the model weights are too large for ordinary GitHub file storage, provide a separate download link or use Git LFS where appropriate.
